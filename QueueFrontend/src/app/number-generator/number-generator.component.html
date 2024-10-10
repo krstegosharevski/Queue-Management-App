@@ -1,0 +1,38 @@
+<app-nav></app-nav>
+
+<div class="container">
+    
+    <div class="text-center">
+        <div class="row mt-4" style="background-color: #f5f7f8;">
+            <div class="col-1 ps-4 pt-4 btn-custome-2">
+                <button class="btn btn-custome" [routerLink]="['/']">Назад</button>
+            </div>
+            <div class="col-11 p-4 mt-4" >
+                <form class="custom-form" (ngSubmit)="generateTicket()">
+        
+                    <h1>Генерирање на број</h1>
+                
+                    <div class="form-group">
+                        <label>Услуга</label>
+                        <select [(ngModel)]="selectedServiceId" name="serviceId" required>
+                            <option *ngFor="let service of bankServices" [value]="service.serviceId">
+                                {{ service.name }}
+                              </option>
+                        </select>
+                       
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Опис</label>
+                        <textarea [(ngModel)]="description" name="description" rows="2"></textarea>
+                    </div>
+                    
+                    <div class="form-action">
+                        <button class="btn btn-custome">Генерирај</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>

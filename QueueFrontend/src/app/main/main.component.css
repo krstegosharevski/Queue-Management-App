@@ -1,0 +1,25 @@
+.custom-color{
+    background-color: #1a7b99;
+    color: white;
+}
+
+.container{
+    background-color: #e9ecef;
+}
+
+.btn-custome{
+    background-color: #C7C5F4;
+}
+
+.btn-custome:hover{
+    background-color: #776BCC;
+    color: white;
+}
+
+.card-body {
+    height: 150px; /* Поставете ја висината по ваша желба */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

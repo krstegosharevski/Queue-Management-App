@@ -1,0 +1,151 @@
+<div class="navbar ps-4">
+    <button class="btn btn-back" [routerLink]="['/']">Назад</button>
+</div>
+<!-- 
+<div class="container">
+<form #registerForm="ngForm" (ngSubmit)="register()" autocomplete="off">
+    <h2 class="text-center text-primary">Пријавете се</h2>
+    <hr>
+    <div class="mb-3">
+        <input type="text"
+            class="form-control"
+            name="username"
+            [(ngModel)]="model.username"
+            placeholder="Username"
+            >   
+    </div>
+    <div class="mb-3">
+        <input type="password"
+            class="form-control"
+            name="password"
+            [(ngModel)]="model.password"
+            placeholder="Password"
+            >   
+    </div>
+    <div class="text-center">
+        <button class="btn btn-back me-2" type="submit">Регистрирај се</button>
+    </div>
+</form>
+</div> -->
+
+<div class="container mt-2">
+    <div class="screen">
+        <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+        </div>
+        
+        <div class="screen__content">
+            <div>
+                <h2 class="fw-light" style="color: black;">Пријавете се . . . </h2>
+            </div>
+            
+            <form #loginForm="ngForm" class="login" (ngSubmit)="register()" autocomplete="off">
+                
+                <div class="login__field">
+                    <i class="login__icon fas fa-user"></i>
+                    <input type="text"
+                        class="login__input"
+                        name="username"
+                        [(ngModel)]="model.username"
+                        placeholder="Корисничко име"
+                    >  
+                </div>
+
+                <div class="login__field">
+                    <i class="login__icon fas fa-lock"></i>
+                    <input type="password"
+                        class="login__input"
+                        name="password"
+                        [(ngModel)]="model.password"
+                        placeholder="Лозинка"
+                    > 
+                </div>
+
+                <div class="login__field">
+                    <i class="login__icon fas fa-user"></i>
+                    <input type="text"
+                        class="login__input"
+                        name="name"
+                        [(ngModel)]="model.name"
+                        placeholder="Име"
+                    >  
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fas fa-lock"></i>
+                    <input type="text"
+                        class="login__input"
+                        name="lastName"
+                        [(ngModel)]="model.lastName"
+                        placeholder="Презиме"
+                    > 
+                </div>
+                
+                
+                <button class="button login__submit" type="submit">
+                    <span class="button__text">Регистрирај се</span>
+                </button>   
+            </form>
+            <div class="social-login">
+                <h3>Моја Банка</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-login__icon fab fa-instagram"></a>
+                    <a href="#" class="social-login__icon fab fa-facebook"></a>
+                    <a href="#" class="social-login__icon fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="container">
+    
+	<div class="screen">
+        
+		<div class="screen__content">
+			<form #loginForm="ngForm" class="login" (ngSubmit)="register()" autocomplete="off">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text"
+                        class="login__input"
+                        name="username"
+                        [(ngModel)]="model.username"
+                        placeholder="Корисничко име"
+                    >  
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password"
+                        class="login__input"
+                        name="password"
+                        [(ngModel)]="model.password"
+                        placeholder="Лозинка"
+            > 
+				</div>
+				
+				<button  class="button login__submit" type="submit" >
+					<span class="button__text">Регистрирај се</span>
+				</button>				
+			</form>
+			<div class="social-login">
+				<h3>Пријавете се</h3>
+				<div class="social-icons">
+					<a href="#" class="social-login__icon fab fa-instagram"></a>
+					<a href="#" class="social-login__icon fab fa-facebook"></a>
+					<a href="#" class="social-login__icon fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="screen__background">
+			
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>				
+		</div>		
+	</div>
+</div> -->

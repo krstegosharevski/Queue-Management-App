@@ -1,0 +1,56 @@
+<div class="navbar ps-4">
+    <button class="btn btn-back" [routerLink]="['/']">Назад</button>
+</div>
+
+<div class="container">
+    
+	<div class="screen">
+        
+		<div class="screen__content">
+			<form #loginForm="ngForm" class="login" (ngSubmit)="login()" autocomplete="off">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input 
+						name="username"
+						[(ngModel)]="model.username"
+						type="text" 
+						class="login__input" 
+						placeholder="Корисничко име">
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input 
+						name="password"
+						[(ngModel)]="model.password"
+						type="password" 
+						class="login__input" 
+						placeholder="Пасворд">
+				</div>
+				
+				<button  class="button login__submit" type="submit" >
+					<span class="button__text">Најави се</span>
+				</button>				
+			</form>
+			<div class="social-login">
+				<h3>Моја Банка</h3>
+				<div class="social-icons">
+					<a href="#" class="social-login__icon fab fa-instagram"></a>
+					<a href="#" class="social-login__icon fab fa-facebook"></a>
+					<a href="#" class="social-login__icon fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+		<div class="register-link">
+			<h6 class="py-1">Немаш сметка? <a [routerLink]="['/register']"> Регистрирај се</a></h6>
+		</div>
+		
+		<div class="screen__background">
+			
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>				
+		</div>		
+	</div>
+</div>
+

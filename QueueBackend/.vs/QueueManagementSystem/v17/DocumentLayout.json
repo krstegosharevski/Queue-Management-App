@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\models\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|c:\\users\\krsst\\source\\repos\\queuemanagementsystem\\queuemanagementsystem\\migrations\\20240813204217_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA47F7A5-C41D-4600-8D4F-EBA88BAFE316}|QueueManagementSystem\\QueueManagementSystem.csproj|solutionrelative:queuemanagementsystem\\migrations\\20240813204217_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Ticket.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:51:43.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\User.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:51:30.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:47:18.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Counter.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Models\\Counter.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Counter.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Models\\Counter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:43:14.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Models\\Service.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Models\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:43:11.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240813204217_init.cs",
+              "DocumentMoniker": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Migrations\\20240813204217_init.cs",
+              "RelativeDocumentMoniker": "QueueManagementSystem\\Migrations\\20240813204217_init.cs",
+              "ToolTip": "C:\\Users\\krsst\\source\\repos\\QueueManagementSystem\\QueueManagementSystem\\Migrations\\20240813204217_init.cs",
+              "RelativeToolTip": "QueueManagementSystem\\Migrations\\20240813204217_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:42:17.896Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

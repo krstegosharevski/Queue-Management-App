@@ -1,0 +1,48 @@
+<app-nav></app-nav>
+
+<div class="container mt-4">
+    <div class="row pt-4">
+        <div class="col" *ngFor="let counter of counters">
+            <div class="p-2 text-center" style="background-color:#f5f7f8;">
+              <h1>{{ counter.name }}</h1> <!-- Името на шалтерот -->
+              <div class="p-1 mt-4 custom-color">
+                <h3 >БРОЈ: {{ getTicketName(counter.ticketId) }}</h3>
+              </div>
+              <div *appHasRole="['Admin']" class="text-center p-3" style="background-color: #C7C5F4;">
+                <button  [attr.disabled]="counter.ticketId ? true : null"  class="btn btn-success me-2" (click)="takeTicket(counter.counterId)">
+                    Обслужи
+                  </button>
+                <button [attr.disabled]="!counter.ticketId ? true : null" class="btn btn-danger" (click)="closeCounterAndAssignTicket(counter.counterId, counter.name, counter.isEmpty, counter.ticketId)">
+                  Затвори
+                </button>
+              </div>
+            </div>
+          </div>        
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row mt-4 pt-4">
+        <div class="col-9">
+            <h4>Наредни броеви:</h4>
+            <hr class="mx-auto">
+            <div class="row py-2 text-center">
+
+                <div class="col" *ngFor="let ticket of tickets">
+                    <div class="card custom-color" style="width: 10rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Број: {{ticket.ticketNumber}}</h5>
+                            <p class="card-text">Услуга: {{getServiceName(ticket.serviceId)}}</p>
+                        </div>
+                    </div>
+                </div>       
+
+            </div>
+        </div>
+        <div class="col d-flex align-items-center">
+            <button class="btn btn-custome ms-4 p-4" *ngIf="isUserLoggedIn" routerLink="/numbergenerator">Генерирај број за шалтер</button>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
